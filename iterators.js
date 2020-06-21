@@ -28,12 +28,10 @@ const toCelsius = function(temperatures) {
 
 
 
-  let tem = [];
-  for (let i =0; i< toCelsius.length; i++){
-    if (toCelsius[i] === temperatures);
-  }
+
   
-    tem = temperatures.map((temperatures )=> (temperatures -32) * (5/9));
+  
+    return temperatures.map((temp )=> (temp -32) * (5/9));
   
 
   // Your code here
